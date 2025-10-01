@@ -4,7 +4,7 @@
 
 HikokiSerial serial1(13, 2, 1);  // RX, TX
 
-#define TURNOFF_SECONDS 20000  // seconds without input before the screen turns off
+#define TURNOFF_SECONDS 60  // seconds without input before the screen turns off
 
 
 size_t split_to(uint8_t delim, uint8_t* src, size_t len, uint8_t** dest, size_t dest_count) {
