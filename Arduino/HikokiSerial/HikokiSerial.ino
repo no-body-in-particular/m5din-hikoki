@@ -1382,7 +1382,7 @@ void loop() {
         for (int i = 0; i < 3; i++) {
             delay(300);
 					  uint16_t discard[64];
-						doCmd("R1012\r\n002\r\n051\r\n00051\r\n",discard,true);
+						doCmd("R1012\r\n002\r\n051\r\n00051\r\n\r\n",discard,true);
         }
 
         showDone();
